@@ -89,7 +89,7 @@ function generateREADME(answers) {
 \n${answers.toc}\n
   
 ## Installation 
-\n[Inquirer](https://img.shields.io/npm/l/inquirer)\n${answers.installation}\n
+\nRefer to [Inquirer](https://img.shields.io/npm/l/inquirer)\n${answers.installation}\n
 
 ## Usage
 \n${answers.usage}\n
@@ -98,13 +98,13 @@ function generateREADME(answers) {
 \n${answers.license}\n
 
 ## Contributing
-\n[Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)\n
+\nRefer to [Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)\n
 
 ## Tests
 \n${answers.tests}\n
 
 ## Questions
-\nFor additional questions please email me at ${userEmail}.\n
+\nFor additional questions please email me at ${userEmail}.\n[Profile Image](${profileImg})\n
   `;
 }
 
